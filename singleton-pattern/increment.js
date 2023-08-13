@@ -1,6 +1,6 @@
-import { counter, increment } from "./counter.js";
+import { count, counter } from "./counter.js";
 
-increment();
-increment();
+counter.increment();
+counter.increment();
 
-console.log(counter + " from increment.js");
+console.log(count + " from increment.js");

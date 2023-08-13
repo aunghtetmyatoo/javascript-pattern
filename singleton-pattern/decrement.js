@@ -1,6 +1,6 @@
-import { counter, decrement } from "./counter.js";
+import { count, counter } from "./counter.js";
 
-decrement();
-decrement();
+counter.decrement();
+counter.decrement();
 
-console.log(counter + " from decrement.js");
+console.log(count + " from decrement.js");

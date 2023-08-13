@@ -1,9 +1,6 @@
-export let counter = 0;
+export let count = 0;
 
-export function increment() {
-  ++counter;
-}
-
-export function decrement() {
-  --counter;
-}
+export const counter = {
+  increment: () => ++count,
+  decrement: () => --count,
+};
